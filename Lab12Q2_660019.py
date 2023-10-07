@@ -4,9 +4,9 @@ def key():
     q = 59
     # define public key and private key
     n = p * q
-    A = (p - 1) * (q - 1) # A = 48
-    E = 13 #11
-    D = 937 #35
+    A = (p - 1) * (q - 1)
+    E = 13
+    D = 937
     print("Public Key: ", n, ",", E)
     print("Private key: ", p,"," ,q, ",", D)
     return n , E , D
@@ -42,4 +42,3 @@ print(list)
 n, E, D = key()
 code = encrypt(list)
 text_decrypt = decrypt(code)
-# print(text_decrypt)
