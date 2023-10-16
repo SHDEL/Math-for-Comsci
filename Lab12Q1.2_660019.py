@@ -1,3 +1,4 @@
+
 import random as rd
 
 thaigoal_rate = 0.02
